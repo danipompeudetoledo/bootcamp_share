@@ -1,0 +1,21 @@
+{
+    "watchforfileschange": false,
+    "baseUrl":"http://localhost:3000",
+    "env":{
+        "apiUrl":"http://localhost:3333"
+        
+
+    },
+    "testFiles":"**/*.spec*",
+    "ignoreTestFiles":"**/cypress/integration/advanced-examples/request-generator.js",
+    "integrationFolder":"./cypress/integration",
+    "defaulComandTimeout:":60000,
+    "pageLoadTimeout":6000,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions":{
+        "reporterDir":"cypress/report",
+        "charts":true,
+        "reportPageTitle":"custom-files"
+    }
+
+}
